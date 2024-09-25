@@ -13,7 +13,24 @@
   
 - 💻 Utilización del framework **Django** para el manejo de rutas y vistas dinámicas.
 - 🎨 Archivos estáticos como CSS, JS e imágenes correctamente gestionados a través del sistema de archivos estáticos de Django.
-- 🔒 Configuración preparada para despliegue en producción con archivos estáticos listos para ser servidos por **Nginx** o **Apache**.
+- 🔒 Configuración
+
+
+##🚧 Estructura del Proyecto**
+
+ cinema-world/
+├── blog_project/                # Proyecto principal de Django
+│   ├── blog/                    # Aplicación del blog
+│   │   ├── templates/           # Plantillas HTML
+│   │   └── static/              # Archivos estáticos (CSS, JS, imágenes)
+│   ├── settings.py              # Configuraciones de Django
+│   ├── urls.py                  # Configuración de rutas
+│   ├── wsgi.py                  # Configuración para servidores de producción
+├── static/                      # Carpeta para archivos estáticos recolectados
+├── manage.py                    # Script para ejecutar comandos de Django
+├── db.sqlite3                   # Base de datos SQLite (si es usada)
+└── env/                         # Entorno virtual
+
 
 ---
 

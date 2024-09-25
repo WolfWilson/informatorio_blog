@@ -34,27 +34,6 @@
 
 ---
 
-## 🛠️ **Instalación y Configuración**
-
-Sigue los pasos a continuación para configurar y ejecutar este proyecto en tu máquina local.
-
-### 1. **Clonar el Repositorio**
-
-Primero, clona el repositorio a tu máquina local:
-
-```bash
-git clone https://github.com/WolfWilson/informatorio_blog.git
-cd blog-project
-
-2. Crear y Activar un Entorno Virtual
-Es recomendable usar un entorno virtual para aislar las dependencias del proyecto:
-.\env\Scripts\activate
-
-
-Mis disculpas por el malentendido. Aquí tienes todo el contenido en formato de código para que puedas copiarlo y pegarlo directamente en tu archivo README.md:
-
-markdown
-Copiar código
 # 🎬 **Cinema World** 🌍
 
 **Cinema World** es una aplicación web tipo blog, construida con el framework **Django**, que permite a los usuarios navegar por diferentes secciones como **Inicio**, **Acerca de**, **Artículos**, **Contacto**, y un **Mapa del sitio**.
@@ -81,12 +60,11 @@ Sigue los pasos a continuación para configurar y ejecutar este proyecto en tu m
 ### 1. **Clonar el Repositorio**
 
 Primero, clona el repositorio a tu máquina local:
+git clone https://github.com/WolfWilson/informatorio_blog.git
+cd blog-project
 
-```bash
-git clone https://github.com/tu-usuario/cinema-world.git
-cd cinema-world
+
 2. Crear y Activar un Entorno Virtual
-
 python -m venv env
 En Windows:
 .\env\Scripts\activate
